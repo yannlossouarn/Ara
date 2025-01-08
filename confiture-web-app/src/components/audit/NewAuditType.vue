@@ -111,7 +111,8 @@ function fillSettings() {
       id="procedure-name"
       v-model="procedureName"
       class="fr-mb-6w"
-      label="Nom de l'application à auditer"
+      label="Nom de l'application mobile à auditer"
+      hint="Exemples : ACME pour iOS."
       required
     />
 

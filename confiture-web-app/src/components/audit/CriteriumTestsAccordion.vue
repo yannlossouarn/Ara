@@ -5,11 +5,13 @@ import methodologies from "../../methodologies.json";
 import LazyAccordion from "./LazyAccordion.vue";
 
 const props = defineProps<{
+  class: String,
   topicNumber: number;
   // FIXME: type things
   criterium: any;
 }>();
 
+// Parse tests into HTML
 const testsHtml = Object.values(
   props.criterium.tests as Record<string, string | string[]>
 ).map((test) =>
@@ -20,17 +22,38 @@ const testsHtml = Object.values(
   )
 );
 
-const methodologiesHtml = Object.values(
-  props.criterium.tests as Record<string, string | string[]>
-).map((_, i) => {
-  const key = `${props.topicNumber}.${props.criterium.number}.${
-    i + 1
-  }` as string;
-  return marked.parse((methodologies as Record<string, string>)[key]);
-});
+// Parse methodologies into HTML and maintain the original key structure
+const methodologiesHtml = Object.entries(methodologies).reduce(
+  (acc, [key, value]) => {
+    // Parse the methodology content using marked
+    acc[key] = marked.parse(value);
+    return acc;
+  },
+  {} as Record<string, string>
+);
+
+// Dynamically compute the key for the current criterium
+const key = `${props.topicNumber}.${props.criterium.number}`;
+
 </script>
 
 <template>
+  <LazyAccordion
+    :title="`Méthodologie du critère ${topicNumber}.${criterium.number}`"
+    disclose-color="var(--background-default-grey)"
+  >
+    <template v-if="methodologiesHtml[key]">
+      <div class="criterium-methodologie">
+        <div v-html="methodologiesHtml[key]" />
+      </div>
+    </template>
+    <template v-else>
+      <div class="criterium-methodologie">
+        <p>Aucune méthodologie disponible pour ce critère.</p>
+      </div>
+    </template>
+  </LazyAccordion>
+
   <LazyAccordion
     :title="`Tests et références du critère ${topicNumber}.${criterium.number}`"
     disclose-color="var(--background-default-grey)"
@@ -64,7 +87,7 @@ const methodologiesHtml = Object.values(
           }`"
           class="fr-collapse criterium-test-methodology"
         >
-          <div v-html="methodologiesHtml[i]" />
+          <div v-html="methodologiesHtml[`${topicNumber}.${criterium.number}.${i + 1}`]" />
         </div>
       </div>
     </template>

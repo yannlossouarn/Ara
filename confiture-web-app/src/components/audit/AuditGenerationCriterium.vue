@@ -66,14 +66,16 @@ const statuses: Array<{
   }
 ];
 
-const result = computed(
-  () =>
-    store.getCriteriumResult(
-      props.page.id,
-      props.topicNumber,
-      props.criterium.number
-    )!
-);
+const result = computed(() => {
+  const criteriumResult = store.getCriteriumResult(
+    props.page.id,
+    props.topicNumber,
+    props.criterium.number
+  ); 
+
+  return criteriumResult; // Do not assert with `!` yet.
+});
+
 
 const transversePageId = computed(() => {
   return auditStore.currentAudit?.transverseElementsPage.id;

@@ -19,11 +19,11 @@ const fullAudit = {
   value: AuditType.FULL,
   goals: [
     "Identifier toutes les erreurs d’accessibilité",
-    "Obtenir un taux global de conformité au RAAM",
+    "Obtenir un taux global de conformité au RGAA ",
     "Générer une déclaration d’accessibilité"
   ],
   documentation:
-    "https://accessibilite.public.lu/fr/raam1/referentiel-technique.html"
+    "https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/"
 };
 
 const partialAudits = [
@@ -111,8 +111,8 @@ function fillSettings() {
       id="procedure-name"
       v-model="procedureName"
       class="fr-mb-6w"
-      label="Nom de l'application mobile à auditer"
-      hint="Exemples : ACME pour iOS."
+      label="Nom du site ou du service à auditer"
+      hint="Exemples : Service-Public, Demande de permis de conduire."
       required
     />
 

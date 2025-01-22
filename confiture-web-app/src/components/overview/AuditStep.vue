@@ -114,7 +114,7 @@ const auditIsInProgress = computed(() => {
 
           <div class="card-info">
             <p class="fr-text--bold fr-mb-1v">Taux global de conformité</p>
-            <p class="fr-text--xs fr-mb-0">RASM version 1.0</p>
+            <p class="fr-text--xs fr-mb-0">RAAM version 1.0</p>
           </div>
         </div>
         <span aria-hidden="true" class="audit-step-chart-separator" />

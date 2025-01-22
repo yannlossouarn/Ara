@@ -1,5 +1,5 @@
 import { AuditType } from "@prisma/client";
-import * as rgaa from "../rgaa.json";
+import * as rgaa from "../raam.json";
 
 interface CriteriumId {
   topic: number;

@@ -12,7 +12,7 @@ import sharp from "sharp";
 import { omit, orderBy, pick, sortBy, setWith, uniqBy } from "lodash";
 
 import { PrismaService } from "../prisma.service";
-import * as RGAA from "../rgaa.json";
+import * as RGAA from "../raam.json";
 import { AuditReportDto } from "./dto/audit-report.dto";
 import { CreateAuditDto } from "./dto/create-audit.dto";
 import { CRITERIA_BY_AUDIT_TYPE } from "./criteria";
@@ -813,7 +813,10 @@ export class AuditService {
       Math.round(
         (compliantCriteria.length / applicableCriteria.length) * 100
       ) || 0;
-
+      console.log("accessibilityRate", accessibilityRate);
+      console.log("compliantCriteria.length", compliantCriteria.length);
+      console.log("applicableCriteria.length", applicableCriteria.length);
+      
     const totalCriteriaCount = CRITERIA_BY_AUDIT_TYPE[audit.auditType].length;
 
     const report: AuditReportDto = {
@@ -871,7 +874,7 @@ export class AuditService {
           assistiveTechnology: e.assistiveTechnology,
           browser: e.browser
         })),
-        referencial: "RGAA Version 4.1",
+        referencial: "RAAM Version 1.0",
         samples: sortBy(
           [audit.transverseElementsPage, ...audit.pages].map((p, i) => ({
             name: p.name,
@@ -1366,6 +1369,7 @@ export class AuditService {
         complianceLevel = Math.round(
           (compliantCriteria.length / applicableCriteria.length) * 100
         );
+        console.log("complianceLevel:", complianceLevel);
       }
 
       const statementIsPublished = !!a.initiator;

@@ -166,14 +166,12 @@ function updatePageOrder(startIndex: number, endIndex: number) {
       <DsfrField
         :id="`page-url-${i + 1}`"
         v-model="page.url"
-        label="URL de la page"
+        label="Chemin d'accès de l'écran"
         type="text"
         required
-        :pattern="URL_REGEX"
       >
         <template #hint>
-          L’URL de la page doit commencer par <code>https://</code> ou
-          <code>http://</code>
+          Décrivez le cheminement parcouru pour atteindre l'écran, par exemple <code>Accueil > Se connecter</code>
         </template>
       </DsfrField>
     </fieldset>

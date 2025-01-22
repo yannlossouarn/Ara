@@ -61,7 +61,7 @@ class UpdateResultsItem {
    */
   @IsInt()
   @Min(1)
-  @Max(13)
+  @Max(15)
   topic: number;
 
   /**

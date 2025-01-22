@@ -92,9 +92,7 @@ const audit = ref<CreateAuditRequestData>({
 const fullDefaultPages = [
   { name: "Accueil", url: "" },
   { name: "Contact", url: "" },
-  { name: "Mentions légales", url: "" },
   { name: "Accessibilité", url: "" },
-  { name: "Plan du site", url: "" },
   { name: "Aide", url: "" },
   { name: "Authentification", url: "" }
 ];

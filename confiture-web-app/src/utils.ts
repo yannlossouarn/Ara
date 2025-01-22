@@ -67,7 +67,7 @@ export function formatStatus(status: CriteriumResultStatus): string {
 const CRITERIA_COUNT = {
   [AuditType.FAST]: 25,
   [AuditType.COMPLEMENTARY]: 50,
-  [AuditType.FULL]: 106
+  [AuditType.FULL]: 107
 };
 
 /**

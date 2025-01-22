@@ -39,7 +39,7 @@ export class AuditReportDto {
 
   /**
    * @example {
-   *  total: 106;
+   *  total: 107;
    *  compliant: 30;
    *  notCompliant: 46;
    *  blocking: 12;
@@ -101,7 +101,7 @@ class TopicResultDistribution extends ResultDistribution {
 
 class ReportContext {
   /**
-   * @example "RGAA Version 4.1"
+   * @example "RAAM Version 1.0"
    */
   referencial: string;
 

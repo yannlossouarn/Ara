@@ -15,7 +15,7 @@ function configureSwagger(app: INestApplication) {
 
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
-
+  app.enableCors();
   app.useBodyParser("json", { limit: "500kb" });
   app.use(morgan(process.env.NODE_ENV !== "production" ? "dev" : "common"));
   app.use("/uploads", proxy(process.env.S3_VIRTUAL_HOST));

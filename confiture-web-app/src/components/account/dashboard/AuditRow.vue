@@ -243,7 +243,7 @@ function copyStatementLink(uniqueId: string) {
           role="tooltip"
           aria-hidden="true"
         >
-          Seul l'audit 106 critères permet d'obtenir un taux de conformité
+          Seul l'audit 107 critères permet d'obtenir un taux de conformité
         </span>
       </p>
     </div>

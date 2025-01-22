@@ -1,4 +1,4 @@
-# Back-end Ara
+# Back-end Aram
 
 Le projet est une API [Nest.js](https://nestjs.com/) et utilise une base de données [PostgreSQL](https://www.postgresql.org/) avec [Prisma](https://www.prisma.io/).
 

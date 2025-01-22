@@ -19,11 +19,11 @@ const fullAudit = {
   value: AuditType.FULL,
   goals: [
     "Identifier toutes les erreurs d’accessibilité",
-    "Obtenir un taux global de conformité au RGAA ",
+    "Obtenir un taux global de conformité au RAAM",
     "Générer une déclaration d’accessibilité"
   ],
   documentation:
-    "https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/"
+    "https://accessibilite.public.lu/fr/raam1/referentiel-technique.html"
 };
 
 const partialAudits = [
@@ -76,8 +76,7 @@ function fillSettings() {
 
     <h3 class="fr-h6 fr-mb-1w">Audit complet</h3>
     <p class="fr-mb-2w">
-      Cet audit permet de mesurer la conformité au RGAA d’un site internet, il a
-      une <strong>valeur légale</strong>.
+      Cet audit permet de mesurer la conformité au RAAM d’une application mobile.
     </p>
     <AuditTypeRadio
       v-model="auditType"
@@ -91,7 +90,7 @@ function fillSettings() {
 
     <h3 class="fr-h6 fr-mb-1w">Audits partiels</h3>
     <p class="fr-mb-2w">
-      Ces audits permettent d’estimer l’accessibilité d’un site internet, ils
+      Ces audits permettent d’avoir un premier aperçu de l'accessibilité d'une application mobile, ils
       n’ont <strong>pas de valeur légale</strong>.
     </p>
     <div class="fr-mb-4w partial-audits">
@@ -112,7 +111,7 @@ function fillSettings() {
       id="procedure-name"
       v-model="procedureName"
       class="fr-mb-6w"
-      label="Nom du site à auditer"
+      label="Nom de l'application à auditer"
       required
     />
 

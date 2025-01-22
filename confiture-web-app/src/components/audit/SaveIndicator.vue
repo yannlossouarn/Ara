@@ -63,7 +63,7 @@ const dropdownMainText = computed(() => {
   if (!systemStore.isOnline) {
     return "L’enregistrement de vos modifications est impossible hors connexion. Veuillez vérifier votre connexion internet.";
   }
-  return "Ara enregistre automatiquement votre travail";
+  return "Aram enregistre automatiquement votre travail";
 });
 
 const dropdownIcon = computed(() => {

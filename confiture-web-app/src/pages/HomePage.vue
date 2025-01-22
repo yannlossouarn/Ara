@@ -60,8 +60,8 @@ const steps = [
 
 <template>
   <PageMeta
-    title="Ara - Réaliser des audits d’accessibilité"
-    description="Avec Ara, vous évaluez manuellement les 106 critères du RGAA, générez un rapport d’audit et une déclaration d’accessibilité"
+    title="Aram - Réaliser des audits d’accessibilité d'applications mobiles"
+    description="Avec Aram, vous évaluez manuellement les 107 critères du RAAM, générez un rapport d’audit et une déclaration d’accessibilité"
   />
 
   <div
@@ -80,22 +80,20 @@ const steps = [
   </div>
 
   <section class="fr-mt-9w">
-    <h1 ref="headingRef">Je réalise un audit d’accessibilité avec Ara</h1>
+    <h1 ref="headingRef">Je réalise un audit d’accessibilité avec Aram</h1>
     <p class="fr-text--lg">
-      Ara nécessite une bonne connaissance de la méthode technique du
+      Aram nécessite une bonne connaissance de la méthode technique du
       <abbr
-        title="référentiel général d’amélioration de
-          l’accessibilité"
-        >RGAA</abbr
+        title="Référentiel d'Évaluation de l'Accessibilité des Applications Mobiles (RAAM) version 1"
+        >RAAM</abbr
       >.
     </p>
     <p>
-      Basé sur la dernière version du référentiel général d’amélioration de
-      l’accessibilité (RGAA 4.1) vous pouvez&nbsp;:
+      Basé sur la v1 du Référentiel d'Évaluation de l'Accessibilité des Applications Mobiles (RAAM) vous pouvez&nbsp;:
     </p>
     <ul>
       <li>Faire un état des lieux (audit partiel de 25 ou 50 critères)</li>
-      <li>Faire un audit complet, dit de conformité (106 critères)</li>
+      <li>Faire un audit complet, dit de conformité (107 critères)</li>
       <li>
         Générer votre rapport d’audit et votre déclaration d’accessibilité
       </li>
@@ -107,7 +105,7 @@ const steps = [
           class="fr-icon-information-line fr-mr-1v"
           aria-hidden="true"
         ></span>
-        <strong>Ara n’audite pas automatiquement votre site</strong>
+        <strong>Aram n’audite pas automatiquement votre site</strong>
       </p>
       <RouterLink :to="{ name: 'create-audit' }" class="fr-btn">
         Je réalise un audit

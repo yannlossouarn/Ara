@@ -39,7 +39,7 @@ const audits = [
     value: AuditType.FULL,
     goals: [
       "Identifier toutes les erreurs d’accessibilité",
-      "Obtenir un taux global de conformité au RGAA ",
+      "Obtenir un taux global de conformité au RAAM ",
       "Générer une déclaration d’accessibilité"
     ],
     documentation:
@@ -123,7 +123,7 @@ const backLinkLabel = computed(() => {
       id="procedure-name"
       v-model="procedureName"
       class="fr-mb-6w"
-      label="Nom du site audité"
+      label="Nom de l'application auditée"
       required
       @update:model-value="emit('change')"
     />

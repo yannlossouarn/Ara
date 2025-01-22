@@ -15,13 +15,13 @@ useHead({
     {
       name: "description",
       content:
-        "Avec Ara, vous évaluez manuellement les 106 critères du RGAA, générez un rapport d’audit et une déclaration d’accessibilité"
+        "Avec Aram, vous évaluez manuellement les 107 critères du RAAM, générez un rapport d’audit et une déclaration d’accessibilité"
     },
     { name: "og:title", content: "Audit d’accessibilité numérique" },
     {
       name: "og:description",
       content:
-        "Avec Ara, vous évaluez manuellement les 106 critères du RGAA, générez un rapport d’audit et une déclaration d’accessibilité"
+        "Avec Aram, vous évaluez manuellement les 107 critères du RAAM, générez un rapport d’audit et une déclaration d’accessibilité"
     },
     { name: "og:url", content: "URL" },
     { name: "og:image", content: "image" },

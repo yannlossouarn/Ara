@@ -1,5 +1,5 @@
 publiccodeYmlVersion: "0.2"
-name: Ara
+name: Aram
 url: https://github.com/DISIC/Ara
 landingURL: https://ara.numerique.gouv.fr/
 creationDate: 2022-07-11
@@ -12,7 +12,7 @@ roadmap: "https://ara.numerique.gouv.fr/feuille-de-route"
 softwareType: ""
 description:
   fr:
-    shortDescription: Faire des audits RGAA, les rendre lisibles et suivre
+    shortDescription: Faire des audits RAAM, les rendre lisibles et suivre
       l’amélioration de leur taux de conformité
     documentation: ""
 legal:

@@ -49,7 +49,7 @@ useWrappedFetch(() => report.fetchReport(uniqueId));
           ? "l’intégralité"
           : "une partie"
       }}
-      des critères du RGAA (<strong>{{
+      des critères du RAAM (<strong>{{
         getCriteriaCount(report.data.auditType)
       }}</strong>
       critères) ont été appliqués sur l’ensemble des pages défini préalablement

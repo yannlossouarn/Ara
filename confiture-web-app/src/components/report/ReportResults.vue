@@ -25,7 +25,7 @@ const stats = computed(() => {
             title: "Taux global de conformité",
             description: auditInProgress.value
               ? "(Disponible à la fin de l’audit)"
-              : "RGAA version 4.1",
+              : "RAAM version 1.0",
             value: auditInProgress.value ? 0 : report.data?.accessibilityRate,
             total: 100,
             unit: "%",
@@ -74,10 +74,10 @@ const pageDistributionTableData = {
 };
 
 const topicDistributionTableData = {
-  title: "Répartition des critères par thématiques du RGAA",
+  title: "Répartition des critères par thématiques du RAAM",
   data: [
     [
-      "Thématiques du RGAA",
+      "Thématiques du RAAM",
       "Critères conformes",
       "Critères non conformes",
       "Critères non applicables"
@@ -127,7 +127,7 @@ const transverseNotCompliantCount = computed(() => {
           </template>
           <template v-if="stat.hasDetails" #accordion-content>
             <p>
-              Le taux global de conformité au RGAA est calculé de la manière
+              Le taux global de conformité au RAAM est calculé de la manière
               suivante :
             </p>
 
@@ -250,7 +250,7 @@ const transverseNotCompliantCount = computed(() => {
                   <tr>
                     <th
                       v-for="header in [
-                        'Thématique du RGAA',
+                        'Thématique du RAAM',
                         'Critères conformes',
                         'Critères non conformes',
                         'Critères non applicables'

@@ -2,7 +2,7 @@
 import { computed, nextTick, ref, watch } from "vue";
 
 import { useFiltersStore, useResultsStore } from "../../store";
-import { CriteriumResultStatus } from "../../types";
+import { CriterionResultUserImpact, CriteriumResultStatus } from "../../types";
 import { pluralize } from "../../utils";
 
 defineProps<{
@@ -84,6 +84,7 @@ const notApplicableCount = computed(
       (r) => r.status === CriteriumResultStatus.NOT_APPLICABLE
     ).length
 );
+
 </script>
 
 <template>

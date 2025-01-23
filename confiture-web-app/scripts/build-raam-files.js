@@ -16,7 +16,7 @@ async function generateMethodologies() {
   const METHODOLOGIES_SOURCE = path.join(
     __dirname,
     "..",
-    "./ReferentielAccessibiliteMobile/json/methodologies.json"
+    "./ReferentielAccessibiliteMobile/fr/json/methodologies.json"
   );
 
   const METHODOLOGIES_DESTINATION = path.join(
@@ -32,7 +32,7 @@ async function generateCriteria() {
   const CRITERIA_SOURCE = path.join(
     __dirname,
     "..",
-    "./ReferentielAccessibiliteMobile/json/criteres.json"
+    "./ReferentielAccessibiliteMobile/fr/json/criteres.json"
   );
 
   const CRITERIA_DESTINATION = path.join(

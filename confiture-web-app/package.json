@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "yarn generate:rgaa && vue-tsc --noEmit && vite build",
+    "build": "yarn generate:raam && vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "test": "vitest",
     "test:coverage": "vitest --coverage",

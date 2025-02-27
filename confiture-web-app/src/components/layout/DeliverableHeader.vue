@@ -8,10 +8,7 @@
           <div class="fr-header__brand">
             <div class="fr-header__brand-top">
               <div class="fr-header__logo">
-                <p class="fr-logo">
-                  République
-                  <br />Française
-                </p>
+                <img src="https://audits.aplusb.pro/dist/images/logo-aplusb-dark.svg" alt="AplusB"/>
               </div>
             </div>
             <div class="fr-header__service">

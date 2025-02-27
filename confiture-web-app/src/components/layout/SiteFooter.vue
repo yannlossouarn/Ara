@@ -60,15 +60,18 @@ const bottomLinks = [
       <div class="fr-footer__body">
         <div class="fr-footer__brand fr-enlarge-link">
           <RouterLink :to="{ name: 'home' }" title="Retour à l’accueil">
-            <p class="fr-logo" title="république française">
-              République<br />
-              Française
-            </p>
+            <img src="https://audits.aplusb.pro/dist/images/logo-aplusb-dark.svg" alt="AplusB" style="height: 100%"/>
           </RouterLink>
         </div>
         <div class="fr-footer__content">
           <p class="fr-footer__content-desc">
-            Ce site est réalisé par
+            Ce site est réalisé par 
+            <a
+              class="fr-link fr-text--sm"
+              href="https://www.aplusb.pro/"
+              target="_blank"
+            ><img src="https://audits.aplusb.pro/dist/images/logo-aplusb-dark.svg" alt="AplusB"/></a>
+            sur la base d'un outil développé par 
             <a
               class="fr-link fr-text--sm"
               href="https://design.numerique.gouv.fr/"

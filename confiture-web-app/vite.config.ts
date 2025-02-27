@@ -33,7 +33,8 @@ export default defineConfig({
       "/api": "http://localhost:4000",
       "/uploads": "http://localhost:4000"
     },
-    port: 3000
+    port: 3000,
+    allowedHosts: [".aplusb.pro"]
   },
   preview: {
     port: process.env.PORT ? Number(process.env.PORT) : undefined

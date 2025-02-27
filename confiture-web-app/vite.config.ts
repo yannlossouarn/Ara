@@ -34,7 +34,7 @@ export default defineConfig({
       "/uploads": "http://localhost:4000"
     },
     port: 3000,
-    allowedHosts: [".aplusb.pro"]
+    allowedHosts: ["aram.aplusb.pro"]
   },
   preview: {
     port: process.env.PORT ? Number(process.env.PORT) : undefined

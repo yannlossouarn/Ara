@@ -38,7 +38,7 @@ async function generateCriteria() {
   const CRITERIA_DESTINATION = path.join(
     __dirname,
     "..",
-    "./src/criteres.json"
+    "./src/criteresAram.json"
   );
 
   await fs.copyFile(CRITERIA_SOURCE, CRITERIA_DESTINATION);
@@ -208,7 +208,7 @@ async function restructureCriteria() {
 
     // Write the updated JSON to a new file
     await fs.writeFile(
-      "./src/criteres.json",
+      "./src/criteresRaam.json",
       JSON.stringify(jsonData, null, 4),
       "utf-8"
     );

@@ -11,7 +11,7 @@ import { StatDonutTheme } from "../../components/StatDonut.vue";
 import BackLink from "../../components/ui/BackLink.vue";
 import { useAuditStats } from "../../composables/useAuditStats";
 import { useWrappedFetch } from "../../composables/useWrappedFetch";
-import rgaa from "../../criteres.json";
+import rgaa from "../../criteresRaam.json";
 import { CRITERIA_BY_AUDIT_TYPE } from "../../criteria";
 import { useAuditStore, useFiltersStore, useResultsStore } from "../../store";
 import { AuditPage, AuditType, CriteriumResultStatus } from "../../types";
@@ -102,7 +102,7 @@ const headerInfos = computed(() => [
           title: "Taux global de conformité",
           description: auditIsInProgress.value
             ? "(Disponible à la fin de l’audit)"
-            : "RAAM version 1.0",
+            : "RASM version 1.0",
           value: auditIsInProgress.value ? 0 : complianceLevel.value,
           total: 100,
           unit: "%",

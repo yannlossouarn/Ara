@@ -20,7 +20,7 @@ yarn install
 Générer les fichiers requis du RAAM (critères et tests et méthodologies) :
 
 ```sh
-yarn generate:rgaa
+yarn generate:raam
 ```
 
 ## Développement

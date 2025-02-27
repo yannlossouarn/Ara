@@ -2,7 +2,7 @@
 import { chunk } from "lodash-es";
 import { marked } from "marked";
 
-import rgaa from "../../criteres.json";
+import rgaa from "../../criteresRaam.json";
 import { CriterionResultUserImpact, ReportCriteriumResult } from "../../types";
 import { formatStatus, formatUserImpact, getUploadUrl } from "../../utils";
 import CriteriumTestsAccordion from "../audit/CriteriumTestsAccordion.vue";

@@ -10,7 +10,7 @@ import { useAccountStore } from "./store/account";
 // Default meta tags
 useHead({
   title: "Audit d’accessibilité numérique",
-  titleTemplate: "%s - Ara",
+  titleTemplate: "%s - Aram",
   meta: [
     {
       name: "description",

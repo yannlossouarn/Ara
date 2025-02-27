@@ -12,7 +12,8 @@ import sharp from "sharp";
 import { omit, orderBy, pick, sortBy, setWith, uniqBy } from "lodash";
 
 import { PrismaService } from "../prisma.service";
-import * as RGAA from "../raam.json";
+import * as RGAA from "../criteresRaam.json";
+//import * as RGAA from "../criteresRasm.json";
 import { AuditReportDto } from "./dto/audit-report.dto";
 import { CreateAuditDto } from "./dto/create-audit.dto";
 import { CRITERIA_BY_AUDIT_TYPE } from "./criteria";
@@ -874,7 +875,7 @@ export class AuditService {
           assistiveTechnology: e.assistiveTechnology,
           browser: e.browser
         })),
-        referencial: "RAAM Version 1.0",
+        referencial: "RASM Version 1.0",
         samples: sortBy(
           [audit.transverseElementsPage, ...audit.pages].map((p, i) => ({
             name: p.name,

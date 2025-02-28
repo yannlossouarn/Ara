@@ -1,6 +1,6 @@
 <mj-section padding-top="24px">
   <mj-column width="100px" vertical-align="middle">
-    <mj-image align="left" src="https://aram.aplusb.pro/public/logo-aplusb.svg" width="100px"></mj-image>
+    <mj-image align="left" src="https://aram.aplusb.pro/logo-aplusb.svg" width="100px"></mj-image>
   </mj-column>
   <mj-column width="48px"></mj-column>
   <mj-column width="452px" vertical-align="middle">

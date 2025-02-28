@@ -67,11 +67,15 @@ const bottomLinks = [
           <p class="fr-footer__content-desc">
             Ce site est réalisé par 
             <a
-              class="fr-link fr-text--sm"
+              style="text-decoration: none; background-image: none;"
               href="https://www.aplusb.pro/"
               target="_blank"
             ><img src="https://audits.aplusb.pro/dist/images/logo-aplusb-dark.svg" alt="AplusB"/></a>
-            sur la base d'un outil développé par 
+            sur la base d'<a
+              class="fr-link fr-text--sm"
+              href="https://www.aplusb.pro/"
+              target="_blank"
+            >Ara</a>, un outil développé par 
             <a
               class="fr-link fr-text--sm"
               href="https://design.numerique.gouv.fr/"

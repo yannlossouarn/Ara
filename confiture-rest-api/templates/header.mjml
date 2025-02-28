@@ -5,7 +5,7 @@
   <mj-column width="48px"></mj-column>
   <mj-column width="452px" vertical-align="middle">
     <mj-text font-weight="700" font-size="18px">Aram</mj-text>
-    <mj-text>Réalisez vos audits d’accessibilité numérique</mj-text>
+    <mj-text>Réalisez vos audits d’accessibilité numérique d'applications mobiles</mj-text>
   </mj-column>
 </mj-section>
 

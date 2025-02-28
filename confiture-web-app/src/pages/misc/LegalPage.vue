@@ -13,7 +13,7 @@ import PageMeta from "../../components/PageMeta";
 <template>
   <PageMeta
     title="Mentions légales"
-    description="Mentions légales du site ara.numerique.gouv.fr"
+    description="Mentions légales du site aram.aplusb.pro"
   />
 
   <section class="fr-my-0 fr-mx-auto content">
@@ -21,72 +21,42 @@ import PageMeta from "../../components/PageMeta";
 
     <p>
       Ce site est édité par l’équipe
-      <a
-        href="https://design.numerique.gouv.fr"
+        Services numériques de l'entreprise <a
+        href="https://www.aplusb.pro"
         rel="noreferrer noopener"
-        target="_blank"
-        >Design des services numériques
-        <span class="fr-sr-only">(nouvelle fenêtre)</span></a
-      >
-      de la Direction interministérielle du numérique, un service du Premier
-      ministre.
+        target="_blank">AplusB</a>.
     </p>
     <p>
-      DINUM<br />
-      20 avenue de Ségur<br />
-      75007 Paris<br />
-      Tel. accueil : 01.71.21.01.70<br />
-      SIRET : 12000101100010 (secrétariat général du gouvernement)<br />
-      SIREN : 120 001 011
+      AplusB<br/>
+      SARL au capital social de 12 000 €<br />
+      Immatriculée au Registre du Commerce et des Sociétés de Paris sous le numéro 525 329 918<br/>
+      Numéro de TVA intracommunautaire : FR17 525 329 918<br/>
+      10 villa des Nymphéas<br/>
+      75020 Paris<br />
+      Téléphone : 06 30 08 28 85<br />
+      SIREN : 525 329 918<br />
     </p>
 
-    <h2>Directrice de publication</h2>
-    <p>Stéphanie Schaer, directrice interministérielle du numérique.</p>
-
+    <h2>Directeur de publication</h2>
+    <p>Brice Kovács – contact@aplusb.pro</p>
     <h2>Conception et gestion du site</h2>
     <p>
-      Ce site est conçu et développé par l’équipe
-      <a
-        href="https://design.numerique.gouv.fr"
+      Ce site est conçu et développé par <a         href="https://yann.lossouarn.net/"
         rel="noreferrer noopener"
-        target="_blank"
-        >Design des services numériques
-        <span class="fr-sr-only">(nouvelle fenêtre)</span></a
-      >
-      et utilise le système de design de l’État.
+        target="_blank">Yann Lossouarn</a>, de l'entreprise AplusB dans le cadre d'une Réutilisation avec modification de l'application Ara, proposée par les services de la DINUM.
     </p>
 
     <h2>Hébergement du site</h2>
 
     <p>
-      Ce site est hébergé sur une plateforme labellisée SecNumCloud par OVH :
-    </p>
-
-    <ul>
-      <li>RCS Roubaix – Tourcoing 424 761 419 00045</li>
-      <li>Code APE 6202A</li>
-      <li>N° TVA : FR 22 424 761 419</li>
-      <li>Siège social : 2 rue Kellermann</li>
-      <li>59100 Roubaix</li>
-      <li>France</li>
-    </ul>
-
-    <h2>Code source du site</h2>
-    <p>
-      Le code source du site est disponible sur
-      <a
-        href="https://github.com/DISIC/Ara/"
-        rel="noreferrer noopener"
-        target="_blank"
-        >Github <span class="fr-sr-only">(nouvelle fenêtre)</span></a
-      >.
+      Ce site est auto-hébergé par l'entreprise AplusB.
     </p>
 
     <h2>Propriété intellectuelle et liens</h2>
     <p>
       Tout site public ou privé est autorisé à établir, sans autorisation
       préalable, un lien vers les informations diffusées sur
-      ara.numerique.gouv.fr.
+      aram.aplusb.pro.
     </p>
     <p>
       Sauf mention de propriété intellectuelle détenue par des tiers, les
@@ -95,7 +65,7 @@ import PageMeta from "../../components/PageMeta";
     <p>
       La mise en place de liens vers nos contenus et documents est cependant est
       à privilégier par rapport à la reproduction sur un site tiers. La mention
-      explicite du site source ara.numerique.gouv.fr est recommandée.
+      explicite du site source aram.aplusb.pro est recommandée.
     </p>
   </section>
 </template>

@@ -43,7 +43,7 @@ import PageMeta from "../../components/PageMeta";
     <p>
       Ce site est conçu et développé par <a         href="https://yann.lossouarn.net/"
         rel="noreferrer noopener"
-        target="_blank">Yann Lossouarn</a>, de l'entreprise AplusB dans le cadre d'une Réutilisation avec modification de l'application Ara, proposée par les services de la DINUM.
+        target="_blank">Yann Lossouarn</a>, de l'entreprise AplusB dans le cadre d'une Réutilisation avec modification d'Ara, un outil proposé par les services de la DINUM.
     </p>
 
     <h2>Hébergement du site</h2>

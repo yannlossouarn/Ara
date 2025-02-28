@@ -30,7 +30,7 @@ const width = useWindowWidth();
       <p class="fr-h6 fr-mb-0 site-name">
         Aram
         <span class="fr-badge fr-badge--sm fr-badge--info fr-badge--no-icon">
-          BÊTA
+          ALPHA
         </span>
       </p>
 

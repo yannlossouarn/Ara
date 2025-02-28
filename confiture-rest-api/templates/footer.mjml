@@ -16,7 +16,7 @@
 <mj-section>
   <mj-column>
     <mj-text color="#666666" font-size="12px" mj-class="black-link">
-      Aram est proposé par AplusB, dans le cadre d'une réutilisation avec modification de l'outil Ara, un produit conçu et developpé par l’équipe
+      Aram est proposé par <a style="color: inherit" href="https://www.aplusb.pro/">AplusB</a>, dans le cadre d'une réutilisation avec modification de l'outil <a style="color: inherit" href="https://ara.numerique.gouv.fr/">Ara</a>, un produit conçu et developpé par l’équipe
       <a style="color: inherit" href="https://design.numerique.gouv.fr/">
         DesignGouv
       </a>
@@ -38,7 +38,7 @@
   <mj-column>
     <mj-image
       align="left"
-      src="https://audits.aplusb.pro/dist/images/logo-aplusb-dark.svg"
+      src="https://aram.aplusb.pro/public/logo-aplusb.svg"
       width="100px"
     ></mj-image>
   </mj-column>

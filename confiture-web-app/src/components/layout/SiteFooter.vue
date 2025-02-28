@@ -60,7 +60,7 @@ const bottomLinks = [
       <div class="fr-footer__body">
         <div class="fr-footer__brand fr-enlarge-link">
           <RouterLink :to="{ name: 'home' }" title="Retour à l’accueil">
-            <img src="https://audits.aplusb.pro/dist/images/logo-aplusb-dark.svg" alt="AplusB" style="height: 100%"/>
+            <img src="https://audits.aplusb.pro/dist/images/logo-aplusb-dark.svg" alt="AplusB" style="height: 10vh"/>
           </RouterLink>
         </div>
         <div class="fr-footer__content">

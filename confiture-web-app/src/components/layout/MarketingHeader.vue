@@ -19,7 +19,7 @@ function closeNewsSubMenu() {
           <div class="fr-header__brand">
             <div class="fr-header__brand-top">
               <div class="fr-header__logo">
-                <img src="https://audits.aplusb.pro/dist/images/logo-aplusb-dark.svg" alt="AplusB"/>
+                <img src="https://audits.aplusb.pro/dist/images/logo-aplusb-dark.svg" alt="AplusB" style="height: 8vh"/>
               </div>
               <div class="fr-header__navbar">
                 <button
@@ -39,7 +39,7 @@ function closeNewsSubMenu() {
                 Aram
                 <span
                   class="fr-badge fr-badge--sm fr-badge--info fr-badge--no-icon"
-                  >BÊTA</span
+                  >ALPHA</span
                 >
               </p>
               <p class="fr-header__service-tagline">

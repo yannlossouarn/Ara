@@ -70,7 +70,7 @@ export function formatStatus(
 const CRITERIA_COUNT = {
   [AuditType.FAST]: 25,
   [AuditType.COMPLEMENTARY]: 50,
-  [AuditType.FULL]: 104
+  [AuditType.FULL]: 107
 };
 
 /**

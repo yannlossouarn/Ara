@@ -72,6 +72,32 @@ from DSFR links with `target="_blank"` */
   color: var(--background-action-high-error) !important;
 }
 
+.fr-header__logo {
+  width: 183px;
+}
+
+.fr-enlarge-link a {
+  width: 15vw;
+}
+
+
+@media (prefers-color-scheme: light) {
+  img.color-scheme-sensitive-logo {
+    content: url("/logo-aplusb-light-scheme.svg");
+  }
+}
+@media (prefers-color-scheme: dark) {
+  img.color-scheme-sensitive-logo {
+      content: url("/logo-aplusb-dark-scheme.svg");
+  }
+}
+
+
+
+
+
+
+
 /* File upload styling */
 /* input[type="file" i]::-webkit-file-upload-button {
   background-color: transparent;

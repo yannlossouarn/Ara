@@ -19,7 +19,7 @@ function closeNewsSubMenu() {
           <div class="fr-header__brand">
             <div class="fr-header__brand-top">
               <div class="fr-header__logo">
-                <img src="https://audits.aplusb.pro/dist/images/logo-aplusb-dark.svg" alt="AplusB" style="height: 8vh"/>
+                <img class="color-scheme-sensitive-logo"  alt="Aram" />
               </div>
               <div class="fr-header__navbar">
                 <button

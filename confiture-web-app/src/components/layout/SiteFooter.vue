@@ -60,17 +60,17 @@ const bottomLinks = [
       <div class="fr-footer__body">
         <div class="fr-footer__brand fr-enlarge-link">
           <RouterLink :to="{ name: 'home' }" title="Retour à l’accueil">
-            <img src="https://audits.aplusb.pro/dist/images/logo-aplusb-dark.svg" alt="AplusB" style="height: 10vh"/>
+            <img class="color-scheme-sensitive-logo"  alt="Aram" />
           </RouterLink>
         </div>
         <div class="fr-footer__content">
           <p class="fr-footer__content-desc">
             Ce site est réalisé par 
-            <a
+            <a class="fr-link fr-text--sm"
               style="text-decoration: none; background-image: none;"
               href="https://www.aplusb.pro/"
               target="_blank"
-            ><img src="https://audits.aplusb.pro/dist/images/logo-aplusb-dark.svg" alt="AplusB"/></a>
+            >AplusB</a>
             sur la base d'<a
               class="fr-link fr-text--sm"
               href="https://www.aplusb.pro/"

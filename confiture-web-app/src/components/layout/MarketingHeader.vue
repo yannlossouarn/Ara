@@ -36,14 +36,14 @@ function closeNewsSubMenu() {
             </div>
             <div class="fr-header__service">
               <p class="fr-header__service-title">
-                Aram
+                Aramedia
                 <span
                   class="fr-badge fr-badge--sm fr-badge--info fr-badge--no-icon"
                   >ALPHA</span
                 >
               </p>
               <p class="fr-header__service-tagline">
-                Réalisez vos audits d’accessibilité numérique d'applications mobiles
+                Réalisez vos audits d’accessibilité numérique de systèmes multimédia
               </p>
             </div>
           </div>

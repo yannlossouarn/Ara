@@ -132,7 +132,7 @@ async function handleSubmit() {
 
   <div class="wrapper">
     <form novalidate @submit.prevent="handleSubmit">
-      <h1 class="fr-h3">Connexion à Ara</h1>
+      <h1 class="fr-h3">Connexion à Aramedia</h1>
 
       <DsfrField
         id="user-email"

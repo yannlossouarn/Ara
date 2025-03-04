@@ -130,7 +130,7 @@ const router = createRouter({
       name: "login",
       component: LoginPage,
       meta: {
-        name: "Connexion à Ara"
+        name: "Connexion à Aramedia"
       }
     },
     {

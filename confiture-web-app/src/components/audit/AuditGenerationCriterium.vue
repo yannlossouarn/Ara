@@ -73,7 +73,7 @@ const result = computed(() => {
     props.criterium.number
   ); 
 
-  return criteriumResult; // Do not assert with `!` yet.
+  return criteriumResult ?? CriteriumResultStatus.NOT_TESTED; // Do not assert with `!` yet.
 });
 
 

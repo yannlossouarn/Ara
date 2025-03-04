@@ -99,7 +99,7 @@ class TopicResultDistribution extends ResultDistribution {
 
 class ReportContext {
   /**
-   * @example "RAAM Version 1.0"
+   * @example "RASM Version 1.0"
    */
   referencial: string;
 

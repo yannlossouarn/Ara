@@ -1,6 +1,6 @@
 import { groupBy, mapValues, sortBy } from "lodash-es";
 
-import rgaa from "../../criteresRaam.json";
+import rgaa from "../../criteresRasm.json";
 import { ReportStoreState } from "../../store";
 import {
   AuditReport,

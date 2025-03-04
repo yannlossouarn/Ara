@@ -25,7 +25,7 @@ const stats = computed(() => {
             title: "Taux global de conformité",
             description: auditInProgress.value
               ? "(Disponible à la fin de l’audit)"
-              : "RAAM version 1.0",
+              : "RASM version 1.0",
             value: auditInProgress.value ? 0 : report.data?.accessibilityRate,
             total: 100,
             unit: "%",
@@ -74,10 +74,10 @@ const pageDistributionTableData = {
 };
 
 const topicDistributionTableData = {
-  title: "Répartition des critères par thématiques du RAAM",
+  title: "Répartition des critères par thématiques du RASM",
   data: [
     [
-      "Thématiques du RAAM",
+      "Thématiques du RASM",
       "Critères conformes",
       "Critères non conformes",
       "Critères non applicables"
@@ -127,7 +127,7 @@ const transverseNotCompliantCount = computed(() => {
           </template>
           <template v-if="stat.hasDetails" #accordion-content>
             <p>
-              Le taux global de conformité au RAAM est calculé de la manière
+              Le taux global de conformité au RASM est calculé de la manière
               suivante :
             </p>
 
@@ -250,7 +250,7 @@ const transverseNotCompliantCount = computed(() => {
                   <tr>
                     <th
                       v-for="header in [
-                        'Thématique du RAAM',
+                        'Thématique du RASM',
                         'Critères conformes',
                         'Critères non conformes',
                         'Critères non applicables'

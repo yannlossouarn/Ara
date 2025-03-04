@@ -75,7 +75,7 @@ const descriptionId = computed(() => {
         </li>
       </ul>
       <p class="fr-text--sm prerequisite fr-mb-3v">
-        Nécessite de très bonnes connaissances techniques et du RAAM
+        Nécessite de très bonnes connaissances techniques et du RASM
       </p>
       <a
         :href="documentationLink"

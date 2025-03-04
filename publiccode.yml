@@ -12,7 +12,7 @@ roadmap: "https://ara.numerique.gouv.fr/feuille-de-route"
 softwareType: ""
 description:
   fr:
-    shortDescription: Faire des audits RAAM, les rendre lisibles et suivre
+    shortDescription: Faire des audits RASM, les rendre lisibles et suivre
       l’amélioration de leur taux de conformité
     documentation: ""
 legal:

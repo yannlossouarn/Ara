@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { marked } from "marked";
 
-import rgaa from "../../criteresRaam.json";
+import rgaa from "../../criteresRasm.json";
 import { CriteriumResultStatus } from "../../types";
 import { formatStatus } from "../../utils";
 import MarkdownRenderer from "../ui/MarkdownRenderer.vue";

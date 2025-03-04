@@ -8,7 +8,7 @@ import proxy from "express-http-proxy";
 import { AppModule } from "./app.module";
 
 function configureSwagger(app: INestApplication) {
-  const config = new DocumentBuilder().setTitle("Aram API").build();
+  const config = new DocumentBuilder().setTitle("Aramedia API").build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup("/swagger", app, document);
 }

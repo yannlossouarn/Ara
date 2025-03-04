@@ -76,7 +76,7 @@ function fillSettings() {
 
     <h3 class="fr-h6 fr-mb-1w">Audit complet</h3>
     <p class="fr-mb-2w">
-      Cet audit permet de mesurer la conformité au RAAM d’une application mobile.
+      Cet audit permet de mesurer la conformité au RASM d’un système multimédia.
     </p>
     <AuditTypeRadio
       v-model="auditType"

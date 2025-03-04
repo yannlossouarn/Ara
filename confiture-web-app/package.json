@@ -4,13 +4,14 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "yarn generate:raam && vue-tsc --noEmit && vite build",
+    "build": "yarn generate:rasm && vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "test": "vitest",
     "test:coverage": "vitest --coverage",
     "lint": "eslint '{src,scripts}/**/*.{ts,vue}'",
     "generate:rgaa": "node scripts/build-rgaa-files.js",
     "generate:raam": "node scripts/build-raam-files.js",
+    "generate:rasm": "node scripts/build-rasm-files.js",
     "postinstall": "cp ../ROADMAP.md ../CHANGELOG.md ./src/assets"
   },
   "dependencies": {

@@ -2,7 +2,7 @@
 import { chunk } from "lodash-es";
 import { marked } from "marked";
 
-import rgaa from "../../criteresRaam.json";
+import rgaa from "../../criteresRasm.json";
 import { CriterionResultUserImpact, ReportCriteriumResult } from "../../types";
 import { formatStatus, formatUserImpact, getUploadUrl } from "../../utils";
 import MarkdownRenderer from "../ui/MarkdownRenderer.vue";

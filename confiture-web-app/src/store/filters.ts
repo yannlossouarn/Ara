@@ -1,6 +1,6 @@
 import { defineStore } from "pinia";
 
-import rgaa from "../criteresRaam.json"; // criteres pour RGAA ; criteresRaam pour RAAM
+import rgaa from "../criteresRasm.json"; // criteres pour RGAA ; criteresRaam pour RAAM
 import { CRITERIA_BY_AUDIT_TYPE } from "../criteria";
 import { AuditType, CriteriumResultStatus } from "../types";
 import { useAuditStore } from "./audit";

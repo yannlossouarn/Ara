@@ -10,18 +10,18 @@ import { useAccountStore } from "./store/account";
 // Default meta tags
 useHead({
   title: "Audit d’accessibilité numérique",
-  titleTemplate: "%s - Aram",
+  titleTemplate: "%s - Aramedia",
   meta: [
     {
       name: "description",
       content:
-        "Avec Aram, vous évaluez manuellement les 107 critères du RAAM, générez un rapport d’audit et une déclaration d’accessibilité"
+        "Avec Aramedia, vous évaluez manuellement les 107 critères du RASM, générez un rapport d’audit et une déclaration d’accessibilité"
     },
     { name: "og:title", content: "Audit d’accessibilité numérique" },
     {
       name: "og:description",
       content:
-        "Avec Aram, vous évaluez manuellement les 107 critères du RAAM, générez un rapport d’audit et une déclaration d’accessibilité"
+        "Avec Aramedia, vous évaluez manuellement les 107 critères du RASM, générez un rapport d’audit et une déclaration d’accessibilité"
     },
     { name: "og:url", content: "URL" },
     { name: "og:image", content: "image" },

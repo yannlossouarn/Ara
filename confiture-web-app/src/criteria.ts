@@ -1,4 +1,4 @@
-import rgaa from "./criteresRaam.json";
+import rgaa from "./criteresRasm.json";
 import { AuditType } from "./types";
 
 interface CriteriumId {

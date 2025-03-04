@@ -1,6 +1,6 @@
 import { MiddlewareConsumer, Module, NestModule } from "@nestjs/common";
 import { ConfigModule } from "@nestjs/config";
-import { FeedbackModule } from "./feedback/feedback.module";
+// import { FeedbackModule } from "./feedback/feedback.module";
 import { AuditsModule } from "./audits/audits.module";
 import { HealthCheckController } from "./health-check.controller";
 import { configValidationSchema } from "./config-validation-schema";
@@ -19,7 +19,7 @@ import { PrismaService } from "./prisma.service";
         ? configValidationSchema
         : undefined
     }),
-    FeedbackModule,
+    //FeedbackModule,
     AuditsModule,
     MailModule,
     AuthModule,

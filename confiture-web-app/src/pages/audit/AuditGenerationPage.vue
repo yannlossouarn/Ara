@@ -11,7 +11,7 @@ import { StatDonutTheme } from "../../components/StatDonut.vue";
 import BackLink from "../../components/ui/BackLink.vue";
 import { useAuditStats } from "../../composables/useAuditStats";
 import { useWrappedFetch } from "../../composables/useWrappedFetch";
-import rgaa from "../../criteresRaam.json";
+import rgaa from "../../criteresRasm.json";
 import { CRITERIA_BY_AUDIT_TYPE } from "../../criteria";
 import { useAuditStore, useFiltersStore, useResultsStore } from "../../store";
 import { AuditPage, AuditType, CriteriumResultStatus } from "../../types";

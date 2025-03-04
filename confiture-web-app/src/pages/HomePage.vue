@@ -60,8 +60,8 @@ const steps = [
 
 <template>
   <PageMeta
-    title="Aram - Réaliser des audits d’accessibilité d'applications mobiles"
-    description="Avec Aram, vous évaluez manuellement les 107 critères du RAAM, générez un rapport d’audit et une déclaration d’accessibilité"
+    title="Aramedia - Réaliser des audits d’accessibilité de systèmes multimédia"
+    description="Avec Aramedia, vous évaluez manuellement les 106 critères du RASM, générez un rapport d’audit et une déclaration d’accessibilité"
   />
 
   <div
@@ -80,16 +80,16 @@ const steps = [
   </div>
 
   <section class="fr-mt-9w">
-    <h1 ref="headingRef">Je réalise un audit d’accessibilité avec Aram</h1>
+    <h1 ref="headingRef">Je réalise un audit d’accessibilité avec Aramedia</h1>
     <p class="fr-text--lg">
-      Aram nécessite une bonne connaissance de la méthode technique du
+      Aramedia nécessite une bonne connaissance de la méthode technique du
       <abbr
-        title="Référentiel d'Évaluation de l'Accessibilité des Applications Mobiles (RAAM) version 1"
-        >RAAM</abbr
+        title="Référentiel d'Évaluation de l'Accessibilité des Systèmes Multimédia (RASM) version 1"
+        >RASM</abbr
       >.
     </p>
     <p>
-      Basé sur la v1 du Référentiel d'Évaluation de l'Accessibilité des Applications Mobiles (RAAM) vous pouvez&nbsp;:
+      Basé sur la v1 du Référentiel d'Évaluation de l'Accessibilité des Systèmes Multimédia (RASM) vous pouvez&nbsp;:
     </p>
     <ul>
       <li>Faire un état des lieux (audit partiel de 25 ou 50 critères)</li>

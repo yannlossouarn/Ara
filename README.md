@@ -1,6 +1,6 @@
 # Aram
 
-Réaliser des audits d'accessibilité numérique sur la base du Référentiel d'Évaluation de l'Accessibilité des Applications Mobiles (RAAM) version 1.
+Réaliser des audits d'accessibilité numérique sur la base du Référentiel d'Évaluation de l'Accessibilité des Systèmes Multimedia (RASM) version 1.
 Générer et consulter les rapports de ces audits et les déclarations d'accessibilité.
 
 ## Développement

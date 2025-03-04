@@ -53,4 +53,4 @@ Lancer le serveur local :
 yarn start:dev
 ```
 
-La documentation de l’API est disponible sur Swagger (requiert d’avoir lancé le serveur local) : [http://localhost:4000/swagger](http://localhost:4000/swagger)
+La documentation de l’API est disponible sur Swagger (requiert d’avoir lancé le serveur local) : [http://localhost:4001/swagger](http://localhost:4001/swagger)
